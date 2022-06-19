@@ -137,7 +137,7 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
-TW_DEVICE_VERSION := -phoenix-atoll
+TW_DEVICE_VERSION := atoll
 
 # additions that are required for the 11.0 build manifest
 BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem

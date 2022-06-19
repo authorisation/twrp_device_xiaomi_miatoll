@@ -17,8 +17,8 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := phoenix
-DEVICE_PATH := device/xiaomi/phoenix
+PRODUCT_RELEASE_NAME := miatoll
+DEVICE_PATH := device/xiaomi/miatoll
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
@@ -27,12 +27,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/phoenix/device.mk)
+$(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := phoenix
-PRODUCT_NAME := twrp_phoenix
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := POCO X2
+PRODUCT_DEVICE := miatoll
+PRODUCT_NAME := twrp_miatoll
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 9S/9 Pro/9 Pro Max
 PRODUCT_MANUFACTURER := Xiaomi
-#
